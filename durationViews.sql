@@ -1,3 +1,5 @@
+-- Current implementation with Newpipe's current exported database
+
 CREATE VIEW SongsByPlaylist AS
 SELECT p.name AS PlaylistName, s.title AS StreamTitle, s.duration
 FROM streams s
